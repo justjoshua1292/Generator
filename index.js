@@ -5,6 +5,8 @@ const Engineer = require("./lib/engineer");
 const Intern = require("./lib/intern");
 const Manager = require ("./lib/manager");
 
+const template = require('./src/template.js')
+
 const employees = [];
 
 // to start everything
@@ -96,7 +98,7 @@ function createEngineer() {
         },
         {
             type: 'input',
-            name: 'github username',
+            name: 'github',
             message: 'What is the github username of your Engineer?'
         },
     ])
@@ -157,6 +159,11 @@ function createIntern() {
 // to generate the HTML file
 function finish() {
     console.log('Finishing up!')
+    const generatedHTML = template(employees);
+
+    fs.writeFile('./dist/index.html', generatedHTML, () => {
+        console.log('HTML successfully created!')
+    } )
 }
 
 
