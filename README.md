@@ -36,4 +36,8 @@ THEN I exit the application, and the HTML is generated
 
 
 Check out my walkthrough video --- https://drive.google.com/file/d/1Jw_J17-aPS6ilLnH1a83PLRozb1vBAle/view
-2nd walkthrough video showing if our tests passed or failed ---- https://drive.google.com/file/d/1YhFkVxEB0aBc7VE1m1K7NOIZdSVgWCzK/view
+
+
+
+
+2nd walkthrough video showing if our tests passed or failed -- https://drive.google.com/file/d/1YhFkVxEB0aBc7VE1m1K7NOIZdSVgWCzK/view
