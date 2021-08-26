@@ -6,9 +6,11 @@ const template = (employees) => { return `<!DOCTYPE html>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
-    <title>Document</title>
+    <title> Team Profile </title>
 </head>
 <body>
+
+
 <div class="d-flex">
    ${generateAllCards(employees)}
 </div>
@@ -36,9 +38,11 @@ const generateAllCards = (employees) => {
 
 const generateManagerCard = (manager) => {
     return ` <div class="card m-3" style="width: 18rem;">
+    <div class="bg-primary text-white w-100 p-3">
+    <h5 class="card-title bg-primary text-white">${manager.name}</h5>
+    <h6 class="card-subtitle mb-2 text-muted bg-primary text-white">Manager</h6>
+    </div>
     <div class="card-body">
-    <h5 class="card-title">${manager.name}</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Manager</h6>
     <p class="card-text">ID: ${manager.id}</p>
     <p class="card-text">Email: ${manager.email}</p>
     <p class="card-text">Office Number: ${manager.officeNumber}.</p>
@@ -48,9 +52,11 @@ const generateManagerCard = (manager) => {
 
 const generateInternCard = (intern) => {
     return `<div class="card m-3" style="width: 18rem;">
+    <div class="bg-primary text-white w-100 p-3">
+    <h5 class="card-title bg-primary text-white">${intern.name}</h5>
+    <h6 class="card-subtitle mb-2 text-muted bg-primary text-white">Intern</h6>
+    </div>
     <div class="card-body">
-    <h5 class="card-title">${intern.name}</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Intern</h6>
     <p class="card-text">ID: ${intern.id}</p>
     <p class="card-text">Email: ${intern.email}</p>
     <p class="card-text">School: ${intern.school}.</p>
@@ -60,9 +66,11 @@ const generateInternCard = (intern) => {
 
 const generateEngineerCard = (engineer) => {
     return `<div class="card m-3" style="width: 18rem;">
+    <div class="bg-primary text-white w-100 p-3">
+    <h5 class="card-title bg-primary text-white">${engineer.name}</h5>
+    <h6 class="card-subtitle mb-2 text-muted bg-primary text-white">Engineer</h6>
+    </div>
     <div class="card-body">
-    <h5 class="card-title">${engineer.name}</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Engineer</h6>
     <p class="card-text">ID: ${engineer.id}</p>
     <p class="card-text">Email: ${engineer.email}</p>
     <p class="card-text">Github: ${engineer.github}.</p>
