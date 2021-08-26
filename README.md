@@ -33,3 +33,7 @@ THEN I exit the application, and the HTML is generated
 ![Screenshot (279)](https://user-images.githubusercontent.com/83887301/131019046-e12910d1-8341-4b4d-97ae-eb8e24dce534.png)
 ![Screenshot (276)](https://user-images.githubusercontent.com/83887301/131019047-d589a042-38cf-49e4-9a88-d3e1edab482b.png)
 ![Screenshot (277)](https://user-images.githubusercontent.com/83887301/131019049-09710305-13ee-4e62-a223-3e0038c9aa39.png)
+
+
+Check out my walkthrough video --- https://drive.google.com/file/d/1Jw_J17-aPS6ilLnH1a83PLRozb1vBAle/view
+2nd walkthrough video showing if our tests passed or failed ---- https://drive.google.com/file/d/1YhFkVxEB0aBc7VE1m1K7NOIZdSVgWCzK/view
