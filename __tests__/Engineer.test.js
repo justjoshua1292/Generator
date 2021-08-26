@@ -48,8 +48,8 @@ test("Can get email via getEmail()", () => {
 })
 
 
-test("getGithub() returns Github", () => {
-    const engineer = new Engineer('John', 1, "john@mail.com", "",);
+test("Can get github username/address via getGithub()", () => {
+    const engineer = new Engineer('John', 1, "john@mail.com", "https://github.com/johnmail",);
 
-    expect(engineer.getGithub()).toBe('Engineer')
+    expect(engineer.getGithub()).toBe('https://github.com/johnmail')
 })

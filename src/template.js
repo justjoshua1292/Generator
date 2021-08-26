@@ -9,6 +9,8 @@ const template = (employees) => { return `<!DOCTYPE html>
     <title> Employee Generator </title>
 </head>
 <body>
+<h1 style="border-style:dotted"> Our Team! </h1>
+
 
 
 <div class="d-flex">
