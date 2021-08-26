@@ -1,5 +1,5 @@
 const Engineer = require('../lib/engineer.js');
-const Engineer = require('../lib/engineer.js');
+
 
 test("Can start up an Engineer instance", () => {
     const engineer = new Engineer();
@@ -25,13 +25,6 @@ test("Can set an email via constructor", () => {
 
     expect(engineer.email).toBe('john@mail.com')
 })
-
-test("Can set an officeNumber via constructor", () => {
-    const engineer = new Engineer('John', 1, "john@mail.com", 12345);
-
-    expect(engineerr.officeNumber).toBe(12345)
-})
-
 
 
 

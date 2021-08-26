@@ -21,6 +21,7 @@
   "homepage": "https://github.com/justjoshua1292/Generator#readme",
   "dependencies": {
     "inquirer": "^8.1.2",
-    "jest": "^27.0.6"
+    "jest": "^27.0.6",
+    "test": "^0.6.0"
   }
 }

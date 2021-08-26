@@ -17,7 +17,7 @@ test("Can set a name via constructor", () => {
 test("Can set an id via constructor", () => {
     const intern = new Intern('John', 1);
 
-    expect(Intern.id).toBe(1)
+    expect(intern.id).toBe(1)
 })
 
 test("Can set an email via constructor", () => {
@@ -25,14 +25,6 @@ test("Can set an email via constructor", () => {
 
     expect(intern.email).toBe('john@mail.com')
 })
-
-test("Can set an officeNumber via constructor", () => {
-    const intern = new Intern('John', 1, "john@mail.com", 12345);
-
-    expect(intern.officeNumber).toBe(12345)
-})
-
-
 
 
 test("Can get name via getName()", () => {
@@ -55,8 +47,8 @@ test("Can get email via getEmail()", () => {
 })
 
 
-test("getSchool() returns Intern", () => {
+test("getSchool() returns school", () => {
     const intern = new Intern('John', 1, "john@mail.com, ");
 
-    expect(intern.getSchool()).toBe('Intern')
+    expect(intern.getRole()).toBe('Intern')
 })
